@@ -1,10 +1,27 @@
-# Ignore virtual environment
-venv/
-
-# Python cache files
+# Python
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.log
 
-# OS-specific files
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Datasets / models
+data/
+datasets/
+*.h5
+*.pt
+*.pth
+*.joblib
+
+# OS / IDE
+.vscode/
+.idea/
 .DS_Store
-Thumbs.db
